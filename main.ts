@@ -1,5 +1,5 @@
+basic.showIcon(IconNames.Happy)
 while (true) {
-    basic.showIcon(IconNames.Happy)
     pins.servoWritePin(AnalogPin.P1, 180)
     pins.servoWritePin(AnalogPin.P2, 180)
     basic.pause(200)
