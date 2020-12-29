@@ -23,7 +23,7 @@ while (true) {
     basic.pause(200)
     pins.servoWritePin(AnalogPin.P1, 0)
     pins.servoWritePin(AnalogPin.P2, 0)
-    basic.pause(200)
+    basic.pause(100)
 }
 basic.forever(function () {
 	
